@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -146,23 +144,23 @@
     print-color-adjust: exact;
   }
 
-  .print\\:hidden {
+  .print\:hidden {
     display: none !important;
   }
 
-  .print\\:border-black {
+  .print\:border-black {
     border-color: black !important;
   }
 
-  .print\\:w-\\[4in\\] {
+  .print\:w-\[4in\] {
     width: 4in !important;
   }
 
-  .print\\:h-\\[2in\\] {
+  .print\:h-\[2in\] {
     height: 2in !important;
   }
 
-  .print\\:break-inside-avoid {
+  .print\:break-inside-avoid {
     break-inside: avoid;
     page-break-inside: avoid;
   }
